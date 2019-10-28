@@ -1,5 +1,5 @@
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/assets/css/portfolio/main.css">
+    <link rel="stylesheet" href="/assets/css/portfolio/bootstrap.css">
     <style>
     .fa-search-plus .image{
         opacity: 0.3;
@@ -29,3 +29,5 @@
             </div>
         </div>
     </section>
+
+    <img src="{{ port.img | prepend: '/assets/img/portfolio/' }}" class="img-responsive img-centered" alt="{{ port.alt }}">
