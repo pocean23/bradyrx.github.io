@@ -1,5 +1,5 @@
 ---
 layout: portfolio
-permalink: /portfolio/
-title: portfolio
+permalink: /viz/
+title: data visualization
 ---
