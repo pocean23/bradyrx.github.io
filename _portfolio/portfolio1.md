@@ -1,6 +1,6 @@
 ---
 layout: default
-name: Cabin
+name: Southern Ocean Flow
 modal-id: 1
 date: 2014-07-15
 img: cabin.png

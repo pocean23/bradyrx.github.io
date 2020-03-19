@@ -14,6 +14,11 @@
                         <div class="modal-body">
                             <h2>{{ port.title }}</h2>
                             <img src="{{ port.img | prepend: '/assets/img/portfolio/' }}" class="img-responsive img-centered" alt="{{ port.alt }}">
+                            <div class="page-content">
+                              <div class="wrapper">
+                                <p>{{ content }}</p>
+                              </div>
+                            </div>
                             {% if post.description %}
                                 <p>{{ port.description }}</p>
                             {% endif %}
